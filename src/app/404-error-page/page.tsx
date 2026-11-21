@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
 export const metadata: Metadata = {
-  title: "404 Error – Eskil",
+  title: "404 Error – Nordvik",
   description: "The page you are looking for cannot be found.",
 };
 
