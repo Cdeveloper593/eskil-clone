@@ -15,7 +15,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const archive = postFormatBySlug(slug);
   return {
-    title: archive ? `${archive.name} — Post Format | Eskil` : "Post Format | Eskil",
+    title: archive ? `${archive.name} — Post Format | Nordvik` : "Post Format | Nordvik",
   };
 }
 
