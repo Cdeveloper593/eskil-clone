@@ -3,8 +3,8 @@ import { PRODUCTS } from "@/lib/eskil/products";
 import { ShopGrid } from "@/components/sites/eskil/ShopGrid";
 
 export const metadata: Metadata = {
-  title: "Shop – No Sidebar – Eskil",
-  description: "Shop furniture at Eskil Furniture Store.",
+  title: "Shop – No Sidebar – Nordvik",
+  description: "Shop furniture at Nordvik Furniture Store.",
 };
 
 export default function ShopVariantPage() {
