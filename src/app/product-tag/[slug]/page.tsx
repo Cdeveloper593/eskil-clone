@@ -16,7 +16,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const archive = productTagBySlug(slug);
   return {
-    title: archive ? `${archive.name} — Product Tag | Eskil` : "Product Tag | Eskil",
+    title: archive ? `${archive.name} — Product Tag | Nordvik` : "Product Tag | Nordvik",
   };
 }
 
