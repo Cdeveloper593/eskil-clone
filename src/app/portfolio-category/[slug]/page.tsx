@@ -22,8 +22,8 @@ export async function generateMetadata({
   const archive = portfolioCategoryBySlug(slug);
   return {
     title: archive
-      ? `${archive.name} — Portfolio Category | Eskil`
-      : "Portfolio Category | Eskil",
+      ? `${archive.name} — Portfolio Category | Nordvik`
+      : "Portfolio Category | Nordvik",
   };
 }
 
