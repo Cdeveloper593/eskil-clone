@@ -43,7 +43,7 @@ export default function MyAccountPage() {
                   Hello, {user}
                 </p>
                 <p className="text-sm text-[#8a8a8a]">
-                  You are signed in to your Eskil account (local demo).
+                  You are signed in to your Nordvik account (local demo).
                 </p>
               </div>
             </div>
