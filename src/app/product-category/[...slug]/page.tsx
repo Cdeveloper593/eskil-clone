@@ -28,10 +28,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const category = categoryBySlug(slug[slug.length - 1]);
-  if (!category) return { title: "Category – Eskil" };
+  if (!category) return { title: "Category – Nordvik" };
   return {
-    title: `${category.name} – Eskil`,
-    description: `Shop ${category.name} at Eskil Furniture Store.`,
+    title: `${category.name} – Nordvik`,
+    description: `Shop ${category.name} at Nordvik Furniture Store.`,
   };
 }
 
@@ -53,18 +53,80 @@ export default async function ProductCategoryPage({
       sidebar="none"
       title={category.name}
       breadcrumb={[
-        { label: "Home", href: "/" },
-        { label: "Shop", href: "/shop" },
+         { label: "Home", href: "/" },
+         { label: "Shop", href: "/shop" },
         ...(parent
           ? [
-              {
+             {
                 label: parent.name,
                 href: `/product-category/${parent.slug}`,
-              },
+             },
             ]
           : []),
-        { label: category.name },
+         { label: category.name },
       ]}
     />
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
