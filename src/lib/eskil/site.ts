@@ -1,6 +1,6 @@
 import { PRODUCTS } from "./products";
 
-export const SOURCE_BASE = "https://eskil.qodeinteractive.com";
+export const SOURCE_BASE = "https://www.nordvikliving.com";
 
 export type NavLink = { label: string; href: string };
 export type NavGroup = { label: string; links: NavLink[] };
@@ -301,10 +301,10 @@ export const FOOTER_COLUMNS: { title: string; links: NavLink[] }[] = [
   {
     title: "Social media",
     links: [
-      { label: "Twitter", href: "https://twitter.com/QodeInteractive" },
-      { label: "Instagram", href: "https://www.instagram.com/qodeinteractive" },
-      { label: "Facebook", href: "https://www.facebook.com/QodeInteractive" },
-      { label: "Pinterest", href: "https://www.pinterest.com/qodeinteractive" },
+      { label: "Twitter", href: "https://twitter.com/NordvikInteractive" },
+      { label: "Instagram", href: "https://www.instagram.com/nordvikliving" },
+      { label: "Facebook", href: "https://www.facebook.com/NordvikInteractive" },
+      { label: "Pinterest", href: "https://www.pinterest.com/nordvikliving" },
     ],
   },
   {
