@@ -18,7 +18,7 @@ export async function generateMetadata({
   const { slug, month } = await params;
   const archive = postMonthBySlug(slug, month);
   return {
-    title: archive ? `${archive.label} — Archive | Eskil` : "Archive | Eskil",
+    title: archive ? `${archive.label} — Archive | Nordvik` : "Archive | Nordvik",
   };
 }
 
