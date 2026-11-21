@@ -162,7 +162,7 @@ export function PortfolioGrid({ variant = "standard" }: { variant?: PortfolioVar
                   {item.title}
                 </h3>
                 <p className="mt-4 max-w-md text-[15px] leading-[1.85] text-[#555]">
-                  An Eskil interior project — {item.title.toLowerCase()} — furnished with
+                  An Nordvik interior project — {item.title.toLowerCase()} — furnished with
                   pieces from our furniture collections.
                 </p>
                 <Link

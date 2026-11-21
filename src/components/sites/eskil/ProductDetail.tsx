@@ -14,7 +14,7 @@ import { useShop } from "@/components/sites/eskil/cart";
     kept so the diagrams render as on the source. */
 export function localizeWpHtml(html: string): string {
   return html.replaceAll(
-    "https://eskil.qodeinteractive.com/wp-content/uploads/",
+    "https://www.nordvikliving.com/wp-content/uploads/",
     "/sites/eskil/",
   );
 }

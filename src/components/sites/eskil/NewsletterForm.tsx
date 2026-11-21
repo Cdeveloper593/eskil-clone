@@ -8,7 +8,7 @@ export function NewsletterForm() {
   if (done) {
     return (
       <p className="eskil-fade-in border border-black bg-white px-5 py-4 text-center text-[15px] text-black">
-        Thank you for subscribing — welcome to the Eskil newsletter.
+        Thank you for subscribing — welcome to the Nordvik newsletter.
       </p>
     );
   }

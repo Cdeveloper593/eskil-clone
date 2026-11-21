@@ -20,7 +20,7 @@ export function HeroHotspots({ hotspots }: { hotspots: Hotspot[] }) {
     <div className="relative">
       <Image
         src="/sites/eskil/2022/03/h3-img-01-scaled.jpg"
-        alt="Eskil furniture store — styled living room"
+        alt="Nordvik furniture store — styled living room"
         width={2560}
         height={1180}
         priority

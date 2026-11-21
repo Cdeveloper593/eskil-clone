@@ -1,4 +1,4 @@
-/* Eskil — Furniture Store theme clone.
+/* Nordvik — Furniture Store theme clone.
    Fonts: Marcellus (display) + Jost (body), as loaded on the source.
    Palette: near-black text #000/#111, warm light grey #f7f6f4 sections,
    muted meta #8a8a8a, hairline borders #e8e8e8. */
@@ -86,7 +86,7 @@
   transform-origin: left;
 }
 
-/* Scroll reveal — Qode-style fade/slide-in on entering the viewport */
+/* Scroll reveal — Nordvik-style fade/slide-in on entering the viewport */
 .eskil-reveal {
   opacity: 0;
   transform: translateY(28px);

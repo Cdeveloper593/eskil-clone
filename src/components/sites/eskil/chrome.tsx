@@ -306,9 +306,9 @@ export function SiteHeader() {
         <div className="mx-auto flex max-w-[1500px] items-center justify-between px-6 py-2">
           <p className="tracking-wide text-[#555]">10% discount for registered users</p>
           <div className="flex items-center gap-5">
-            <a href="https://www.facebook.com/QodeInteractive" target="_blank" rel="noreferrer" className="uppercase tracking-[0.15em] text-black hover:opacity-60">FB</a>
-            <a href="https://www.instagram.com/qodeinteractive" target="_blank" rel="noreferrer" className="uppercase tracking-[0.15em] text-black hover:opacity-60">IG</a>
-            <a href="https://twitter.com/QodeInteractive" target="_blank" rel="noreferrer" className="uppercase tracking-[0.15em] text-black hover:opacity-60">TW</a>
+            <a href="https://www.facebook.com/NordvikInteractive" target="_blank" rel="noreferrer" className="uppercase tracking-[0.15em] text-black hover:opacity-60">FB</a>
+            <a href="https://www.instagram.com/nordvikliving" target="_blank" rel="noreferrer" className="uppercase tracking-[0.15em] text-black hover:opacity-60">IG</a>
+            <a href="https://twitter.com/NordvikInteractive" target="_blank" rel="noreferrer" className="uppercase tracking-[0.15em] text-black hover:opacity-60">TW</a>
             <span className="text-[#ccc]">|</span>
             <span className="tracking-wide text-black">English</span>
           </div>
@@ -324,8 +324,8 @@ export function SiteHeader() {
           >
             <Menu size={22} strokeWidth={1.5} />
           </button>
-          <Link href="/" className="shrink-0 py-4" aria-label="Eskil — home">
-            <Image src={LOGO} alt="Eskil" width={120} height={32} className="h-8 w-auto" priority />
+          <Link href="/" className="shrink-0 py-4" aria-label="Nordvik — home">
+            <Image src={LOGO} alt="Nordvik" width={120} height={32} className="h-8 w-auto" priority />
           </Link>
           <NavMenu />
           <div className="flex items-center gap-1 md:gap-2">
@@ -367,7 +367,7 @@ export function SiteHeader() {
         aria-hidden={!mobileOpen}
       >
         <div className="flex items-center justify-between border-b border-[#e8e8e8] px-5 py-4">
-          <Image src={LOGO} alt="Eskil" width={110} height={30} className="h-7 w-auto" />
+          <Image src={LOGO} alt="Nordvik" width={110} height={30} className="h-7 w-auto" />
           <button type="button" aria-label="Close menu" onClick={() => setMobileOpen(false)} className="flex h-10 w-10 items-center justify-center text-black hover:bg-black hover:text-white">
             <X size={18} />
           </button>
@@ -404,8 +404,8 @@ export function SiteFooter() {
     <footer className="border-t border-[#e8e8e8] bg-white">
       <div className="mx-auto grid max-w-[1500px] gap-10 px-5 py-14 md:grid-cols-2 md:px-6 lg:grid-cols-5">
         <div className="lg:col-span-1">
-          <Link href="/" aria-label="Eskil — home">
-            <Image src={LOGO_FOOTER} alt="Eskil" width={150} height={40} className="h-10 w-auto" />
+          <Link href="/" aria-label="Nordvik — home">
+            <Image src={LOGO_FOOTER} alt="Nordvik" width={150} height={40} className="h-10 w-auto" />
           </Link>
           <p className="mt-5 max-w-xs text-[14px] leading-relaxed text-[#777]">
             Live in comfort and luxury — quality design furniture &amp; custom-made décor.
@@ -438,8 +438,8 @@ export function SiteFooter() {
         <div className="mx-auto flex max-w-[1500px] flex-wrap items-center justify-between gap-3 px-5 py-5 text-[13px] text-[#8a8a8a] md:px-6">
           <p>
             © 2022{" "}
-            <a href="https://qodeinteractive.com" target="_blank" rel="noreferrer" className="text-black hover:underline">
-              Qode Interactive
+            <a href="https://nordvikliving.com" target="_blank" rel="noreferrer" className="text-black hover:underline">
+              Nordvik Living
             </a>
             . All rights reserved.
           </p>

@@ -7,7 +7,7 @@ import { POSTS } from "@/lib/eskil/posts";
 import { PORTFOLIO } from "@/lib/eskil/portfolio";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
-export const SOURCE_BASE = "https://eskil.qodeinteractive.com";
+export const SOURCE_BASE = "https://www.nordvikliving.com";
 
 /* ------------------------------------------------------------------ */
 /* Plain-text helpers                                                  */
@@ -185,7 +185,7 @@ export function parseInfoBlocks(html: string): InfoBlock[] {
 
 export function PageHero({
   title,
-  eyebrow = "Eskil",
+  eyebrow = "Nordvik",
   crumb,
 }: {
   title: string;
@@ -272,7 +272,7 @@ export function InfoContent({ html }: { html: string }) {
           <Reveal key={i}>
             <Image
               src={block.src}
-              alt={block.alt || "Eskil"}
+              alt={block.alt || "Nordvik"}
               width={block.width}
               height={block.height}
               className="h-auto w-full"
