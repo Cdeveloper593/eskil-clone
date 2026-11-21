@@ -3,7 +3,7 @@ import { infoPageBySlug } from "@/lib/eskil/pages";
 import { InfoContent, PageHero } from "@/components/sites/eskil/InfoPage";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
-export const metadata = { title: "Typography | Eskil" };
+export const metadata = { title: "Typography | Nordvik" };
 
 const HEADINGS = [
   { tag: "h1", cls: "text-5xl md:text-6xl", label: "Heading 1" },
@@ -18,7 +18,7 @@ export default function TypoPage() {
   const page = infoPageBySlug("typo");
   return (
     <>
-      <PageHero title="Typography" eyebrow="Eskil — Type Specimen" />
+      <PageHero title="Typography" eyebrow="Nordvik — Type Specimen" />
       <main className="mx-auto max-w-4xl px-4 py-16 md:py-20">
         <section>
           <Reveal>
@@ -47,7 +47,7 @@ export default function TypoPage() {
             <p className="mt-5 text-[15px] leading-[1.85] text-[#555]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
               luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua — the body face of Eskil, set
+              incididunt ut labore et dolore magna aliqua — the body face of Nordvik, set
               in Jost at 15px with generous leading.
             </p>
             <p className="mt-4 text-[15px] leading-[1.85] text-[#555]">
