@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { infoPageBySlug } from "@/lib/eskil/pages";
 import { InfoContent, PageHero } from "@/components/sites/eskil/InfoPage";
 
-export const metadata = { title: "Returns & Refunds | Eskil" };
+export const metadata = { title: "Returns & Refunds | Nordvik" };
 
 export default function ReturnsRefundsPage() {
   const page = infoPageBySlug("returns-refunds");
