@@ -4,9 +4,9 @@ import { NAV } from "@/lib/eskil/site";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
 export const metadata = {
-  title: "Left Menu Home – Eskil",
+  title: "Left Menu Home – Nordvik",
   description:
-    "Eskil Left Menu Home — BM61 Armchair, O&M Design, Aesthetics, Danish classic and Bølling Table, full-height parallax sections.",
+    "Nordvik Left Menu Home — BM61 Armchair, O&M Design, Aesthetics, Danish classic and Bølling Table, full-height parallax sections.",
 };
 
 const SECTIONS = [
