@@ -2,7 +2,7 @@ import { POSTS } from "@/lib/eskil/posts";
 import { PageHero } from "@/components/sites/eskil/InfoPage";
 import { BlogList, BlogSidebar } from "@/components/sites/eskil/BlogList";
 
-export const metadata = { title: "Blog — Left Sidebar | Eskil" };
+export const metadata = { title: "Blog — Left Sidebar | Nordvik" };
 
 function filterPosts(query: string) {
   if (!query) return POSTS;
