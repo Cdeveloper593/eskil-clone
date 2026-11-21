@@ -53,80 +53,18 @@ export default async function ProductCategoryPage({
       sidebar="none"
       title={category.name}
       breadcrumb={[
-         { label: "Home", href: "/" },
-         { label: "Shop", href: "/shop" },
+        { label: "Home", href: "/" },
+        { label: "Shop", href: "/shop" },
         ...(parent
           ? [
-             {
+              {
                 label: parent.name,
                 href: `/product-category/${parent.slug}`,
-             },
+              },
             ]
           : []),
-         { label: category.name },
+        { label: category.name },
       ]}
     />
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
