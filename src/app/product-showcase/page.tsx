@@ -3,9 +3,9 @@ import Link from "next/link";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
 export const metadata = {
-  title: "Product Showcase – Eskil",
+  title: "Product Showcase – Nordvik",
   description:
-    "Eskil Product Showcase — the Soborg BM61 Chair by Hans J. Wegner, carefully made with oak and fine wool.",
+    "Nordvik Product Showcase — the Soborg BM61 Chair by Hans J. Wegner, carefully made with oak and fine wool.",
 };
 
 const QA = [
@@ -36,9 +36,9 @@ const MATERIALS = [
 ];
 
 const SOCIALS = [
-  { label: "FB", href: "https://www.facebook.com/QodeInteractive" },
-  { label: "IG", href: "https://www.instagram.com/qodeinteractive" },
-  { label: "TW", href: "https://twitter.com/QodeInteractive" },
+  { label: "FB", href: "https://www.facebook.com/NordvikInteractive" },
+  { label: "IG", href: "https://www.instagram.com/nordvikliving" },
+  { label: "TW", href: "https://twitter.com/NordvikInteractive" },
 ];
 
 export default function ProductShowcasePage() {
