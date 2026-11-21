@@ -1,7 +1,7 @@
 import { PageHero } from "@/components/sites/eskil/InfoPage";
 import { PortfolioGrid } from "@/components/sites/eskil/PortfolioGrid";
 
-export const metadata = { title: "Portfolio — Image On Hover | Eskil" };
+export const metadata = { title: "Portfolio — Image On Hover | Nordvik" };
 
 export default function PortfolioImageOnHoverPage() {
   return (
