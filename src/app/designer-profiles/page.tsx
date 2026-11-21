@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { infoPageBySlug } from "@/lib/eskil/pages";
 import { InfoContent, PageHero } from "@/components/sites/eskil/InfoPage";
 
-export const metadata = { title: "Designer Profiles | Eskil" };
+export const metadata = { title: "Designer Profiles | Nordvik" };
 
 export default function DesignerProfilesPage() {
   const page = infoPageBySlug("designer-profiles");
