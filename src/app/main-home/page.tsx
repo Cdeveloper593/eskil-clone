@@ -7,9 +7,9 @@ import { HeroSlider } from "./HeroSlider";
 import { TextImageSlider } from "./TextImageSlider";
 
 export const metadata = {
-  title: "Main Home – Eskil",
+  title: "Main Home – Nordvik",
   description:
-    "Eskil Main Home — Mogensen Chair, Søborg Chair, Mogensen Table and Østerby Chair by Børge Mogensen, featured products and categories.",
+    "Nordvik Main Home — Mogensen Chair, Søborg Chair, Mogensen Table and Østerby Chair by Børge Mogensen, featured products and categories.",
 };
 
 const HERO_SLIDES = [
@@ -102,7 +102,7 @@ export default function MainHomePage() {
           <Reveal delay={120}>
             <Image
               src="/sites/eskil/2022/03/main-img-1.jpg"
-              alt="Eskil furniture — styled interior"
+              alt="Nordvik furniture — styled interior"
               width={1200}
               height={900}
               className="w-full object-cover"
