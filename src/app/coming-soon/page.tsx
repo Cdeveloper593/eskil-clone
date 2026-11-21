@@ -18,7 +18,7 @@ export default function ComingSoonPage() {
     (b): b is Extract<InfoBlock, { kind: "heading" }> =>
       b.kind === "heading" && b.level === 1,
   );
-  const headingHtml = heading ? heading.html : "Introducing the new shopping experience by Qode Stòir";
+  const headingHtml = heading ? heading.html : "Introducing the new shopping experience by Nordvik Stòir";
 
   return (
     <>
@@ -53,7 +53,7 @@ export default function ComingSoonPage() {
             <p className="eskil-eyebrow">Follow us</p>
             <p className="mt-4 flex justify-center gap-6 text-[13px] tracking-[0.22em] uppercase">
               <a
-                href="https://www.facebook.com/QodeInteractive/"
+                href="https://www.facebook.com/NordvikInteractive/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black underline underline-offset-4"
@@ -61,7 +61,7 @@ export default function ComingSoonPage() {
                 Facebook
               </a>
               <a
-                href="https://www.instagram.com/qodeinteractive"
+                href="https://www.instagram.com/nordvikliving"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black underline underline-offset-4"
@@ -69,7 +69,7 @@ export default function ComingSoonPage() {
                 Instagram
               </a>
               <a
-                href="https://twitter.com/qodeinteractive"
+                href="https://twitter.com/nordvikliving"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black underline underline-offset-4"
@@ -82,7 +82,7 @@ export default function ComingSoonPage() {
                 ← Back to the store
               </Link>
               <span className="mx-3">·</span>
-              <span>© 2022 Qode Interactive, All Rights Reserved</span>
+              <span>© 2022 Nordvik Living, All Rights Reserved</span>
             </p>
           </div>
         </Reveal>
