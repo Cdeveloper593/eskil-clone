@@ -4,7 +4,7 @@ import { infoPageBySlug } from "@/lib/eskil/pages";
 import { InfoContent } from "@/components/sites/eskil/InfoPage";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
-export const metadata = { title: "Landing | Eskil" };
+export const metadata = { title: "Landing | Nordvik" };
 
 export default function LandingPage() {
   const page = infoPageBySlug("landing");
@@ -13,7 +13,7 @@ export default function LandingPage() {
     <>
       <section className="bg-[#f7f6f4] px-4 py-20 text-center md:py-32">
         <Reveal>
-          <p className="eskil-eyebrow">Eskil — Furniture Store</p>
+          <p className="eskil-eyebrow">Nordvik — Furniture Store</p>
           <h1 className="eskil-display mx-auto mt-5 max-w-4xl text-4xl leading-tight text-black md:text-6xl">
             Start your eCommerce venture now!
           </h1>
@@ -41,7 +41,7 @@ export default function LandingPage() {
               Promote your store
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-[15px] leading-[1.85] text-[#555]">
-              Eskil includes a great variety of carefully designed portfolio lists,
+              Nordvik includes a great variety of carefully designed portfolio lists,
               versatile portfolio singles, blog list layouts and diverse post types
               for your blog.
             </p>
