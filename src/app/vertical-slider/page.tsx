@@ -1,9 +1,9 @@
 import { VerticalSlider } from "./VerticalSlider";
 
 export const metadata = {
-  title: "Vertical Slider – Eskil",
+  title: "Vertical Slider – Nordvik",
   description:
-    "Eskil Vertical Slider — BM62 Armchair, Swoon Chair, Werner Ox and Lounge Chair in full-screen vertical sections.",
+    "Nordvik Vertical Slider — BM62 Armchair, Swoon Chair, Werner Ox and Lounge Chair in full-screen vertical sections.",
 };
 
 const SLIDES = [
