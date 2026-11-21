@@ -19,7 +19,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = postBySlug(slug);
   return {
-    title: post ? `${post.title} | Eskil` : "Post | Eskil",
+    title: post ? `${post.title} | Nordvik` : "Post | Nordvik",
     description: post
       ? post.excerpt.replace(/<[^>]+>/g, "").slice(0, 160)
       : undefined,
