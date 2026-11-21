@@ -4,8 +4,8 @@ import { infoPageBySlug } from "@/lib/eskil/pages";
 import { ShopGrid } from "@/components/sites/eskil/ShopGrid";
 
 export const metadata: Metadata = {
-  title: "Gift Cards – Eskil",
-  description: "Eskil gift cards — give the gift of great design furniture.",
+  title: "Gift Cards – Nordvik",
+  description: "Nordvik gift cards — give the gift of great design furniture.",
 };
 
 export default function GiftCardsPage() {
