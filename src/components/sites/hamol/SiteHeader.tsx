@@ -35,10 +35,10 @@ export function SiteHeader() {
       }`}
     >
       <div className="flex items-center gap-4">
-        <a href="#top" aria-label="Hamol Studio, home" className="block">
+        <a href="#top" aria-label="Arcline Studio, home" className="block">
           <Image
             src="/sites/hamol/media/hamol-logo.svg"
-            alt="Hamol Studio"
+            alt="Arcline Studio"
             width={110}
             height={73}
             className={`h-9 w-auto ${onStudio ? "invert" : ""}`}
@@ -50,7 +50,7 @@ export function SiteHeader() {
           target="_blank"
           rel="noopener noreferrer"
           className={`hidden items-center border-l pl-4 min-[941px]:flex ${onStudio ? "border-[#17251c]/15" : "border-white/15"}`}
-          aria-label="Lovable Expert 2026 — Hamol Studio partner profile (opens in a new tab)"
+          aria-label="Lovable Expert 2026 — Arcline Studio partner profile (opens in a new tab)"
         >
           <Image
             src={

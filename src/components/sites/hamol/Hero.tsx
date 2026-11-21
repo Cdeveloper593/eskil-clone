@@ -51,7 +51,7 @@ export function Hero() {
             </span>
           </h1>
           <p className="max-w-[44ch] text-base leading-[1.65] text-[#b9bdc2]">
-            Hamol Studio brings brands to life through memorable visuals and digital experiences
+            Arcline Studio brings brands to life through memorable visuals and digital experiences
             that people want to explore.
           </p>
           <a

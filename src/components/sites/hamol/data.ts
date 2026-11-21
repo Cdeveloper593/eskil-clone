@@ -14,8 +14,8 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "ranketize",
-    name: "Ranketize",
+    slug: "metricly",
+    name: "Metricly",
     category: "GEO Agency",
     status: "Active",
     accent: "#06d99a",
@@ -25,11 +25,11 @@ export const projects: Project[] = [
     opportunity:
       "SEO is fragmenting into AI answers where classic ranking tactics no longer apply.",
     built: "A repeatable AI-SEO playbook, tracking dashboard, and content operations team.",
-    website: "https://ranketize.com/",
+    website: "https://example.com/metricly",
   },
   {
-    slug: "crawlly-ai",
-    name: "Crawlly AI",
+    slug: "scoutly-ai",
+    name: "Scoutly AI",
     category: "GEO SaaS",
     status: "Active",
     accent: "#729dff",
@@ -38,11 +38,11 @@ export const projects: Project[] = [
       "A generative engine optimization platform for auditing website readiness for AI discovery.",
     opportunity: "There's no clear way to measure how AI models see and represent a brand.",
     built: "A crawler + LLM evaluation pipeline surfacing entity-level visibility scores.",
-    website: "https://www.crawlly.ai/",
+    website: "https://example.com/scoutly-ai",
   },
   {
-    slug: "mojbroker",
-    name: "MojBroker",
+    slug: "loanpath",
+    name: "Loanpath",
     category: "Broker Comparison",
     status: "Active",
     accent: "#a790fb",
@@ -52,11 +52,11 @@ export const projects: Project[] = [
     opportunity:
       "Choosing a broker is confusing, with hidden fees and marketing claims that are hard to compare.",
     built: "A transparent comparison site with clear broker profiles, fee breakdowns, and regional filters.",
-    website: "https://mojbroker.sk/",
+    website: "https://example.com/loanpath",
   },
   {
-    slug: "cleminds-ai",
-    name: "Cleminds AI",
+    slug: "mindmere-ai",
+    name: "Mindmere AI",
     category: "AI Automation",
     status: "Growing",
     accent: "#55dae8",
@@ -65,11 +65,11 @@ export const projects: Project[] = [
       "An AI studio building autonomous agents that handle complex knowledge work end to end.",
     opportunity: "Teams spend too much time on repetitive research, analysis, and decision support.",
     built: "A platform of specialized AI agents with memory, planning, and tool use.",
-    website: "https://cleminds.ai/",
+    website: "https://example.com/mindmere-ai",
   },
   {
-    slug: "comparenow",
-    name: "CompareNow",
+    slug: "priceloop",
+    name: "Priceloop",
     category: "AI Visibility Directory",
     status: "Active",
     accent: "#edbd6d",
@@ -78,15 +78,15 @@ export const projects: Project[] = [
     opportunity:
       "Finding the right AI visibility partner is hard with scattered, biased, and incomplete information.",
     built: "A focused comparison platform for AI visibility services with transparent scoring and clear profiles.",
-    website: "https://comparenow.ai/",
+    website: "https://example.com/priceloop",
   },
   {
-    slug: "platby360",
-    name: "Platby360",
+    slug: "payorbit",
+    name: "Payorbit",
     category: "Payment Comparison",
     status: "In development",
     accent: "#e39cbf",
-    markText: "P360",
+    markText: "PO",
     description:
       "Work in progress: a payment comparison site for Slovakia and the Czech Republic. Not yet launched.",
     opportunity:
@@ -94,8 +94,8 @@ export const projects: Project[] = [
     built: "In development: a comparison site with provider profiles, fee breakdowns, and regional filters.",
   },
   {
-    slug: "generateqrcode",
-    name: "Generate QR Code",
+    slug: "qr-forge",
+    name: "QR Forge",
     category: "QR Design Tool",
     status: "Active",
     accent: "#4ddcea",
@@ -104,11 +104,11 @@ export const projects: Project[] = [
     opportunity:
       "Businesses need QR codes that fit their visual identity and work across both printed materials and digital touchpoints.",
     built: "A browser-based QR design tool with live previews, multiple content types, styling controls, and PNG and SVG export.",
-    website: "https://generateqrcode.app/",
+    website: "https://example.com/qr-forge",
   },
   {
-    slug: "namespark",
-    name: "NameSpark",
+    slug: "brandling",
+    name: "Brandling",
     category: "AI Naming Tool",
     status: "Active",
     accent: "#8b5cf6",
@@ -118,11 +118,11 @@ export const projects: Project[] = [
     opportunity:
       "Finding a name that fits an idea often means switching between brainstorming and checking which domains are available.",
     built: "A browser-based naming tool that brings AI-generated suggestions, domain availability checks, and links to domain registrars into one workflow.",
-    website: "https://namespark.ai/",
+    website: "https://example.com/brandling",
   },
   {
-    slug: "frost",
-    name: "Frost",
+    slug: "glacier",
+    name: "Glacier",
     category: "Premium Frozen Pastry",
     status: "Active",
     accent: "#a8dcf1",
@@ -131,10 +131,10 @@ export const projects: Project[] = [
     opportunity:
       "Professional kitchens need consistent, high-quality pastry without the cost and complexity of making everything from scratch.",
     built: "A premium frozen pastry supply operation focused on quality, reliability, and service for hospitality businesses.",
-    website: "https://frostpresov.sk/en",
+    website: "https://example.com/glacier",
   },
 ];
 
-export const sourceProjectUrl = (slug: string) => `https://hamol.studio/work/${slug}/`;
+export const sourceProjectUrl = (slug: string) => `https://arcline.studio/work/${slug}/`;
 
-export const CONTACT_EMAIL = "contact@ranketize.com";
+export const CONTACT_EMAIL = "hello@arcline.studio";

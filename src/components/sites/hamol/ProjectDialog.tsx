@@ -51,7 +51,7 @@ export function ProjectDialog() {
             )}
           </div>
           <span className="absolute bottom-4 left-5 text-[10px] tracking-[0.2em] text-white/50 uppercase">
-            {String(index + 1).padStart(2, "0")} / A Hamol Studio project
+            {String(index + 1).padStart(2, "0")} / A Arcline Studio project
           </span>
         </div>
 

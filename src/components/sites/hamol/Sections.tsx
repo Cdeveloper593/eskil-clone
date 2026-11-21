@@ -84,8 +84,8 @@ const FOUNDERS = [
     photo: "/sites/hamol/media/team/rastislav-molcan-768.webp",
     expertise: ["Product development", "Systems & automation", "Applied AI"],
     bio: [
-      "Rastislav leads technology initiatives where systems, data and operations meet. At Frost a.s. Prešov, he oversees IT strategy and digital transformation, including systems architecture, process automation, cybersecurity and data-driven reporting.",
-      "As founder of Ranketize and Crawlly AI, he builds products and solutions across technical SEO, AEO, GEO and AI visibility. He is pursuing a PhD in Industrial Logistics at the Technical University of Košice, researching practical applications of AI in enterprise logistics.",
+      "Rastislav leads technology initiatives where systems, data and operations meet. At Glacier a.s. Prešov, he oversees IT strategy and digital transformation, including systems architecture, process automation, cybersecurity and data-driven reporting.",
+      "As founder of Metricly and Scoutly AI, he builds products and solutions across technical SEO, AEO, GEO and AI visibility. He is pursuing a PhD in Industrial Logistics at the Technical University of Košice, researching practical applications of AI in enterprise logistics.",
     ],
     links: [{ label: "LinkedIn", href: "https://www.linkedin.com/in/rastislavmolcan/" }],
   },
@@ -116,7 +116,7 @@ const DISCIPLINES = [
 export function Studio() {
   return (
     <section id="studio" className={`scroll-mt-32 bg-[#e9e9e3] pt-24 pb-10 text-[#171a1c] ${PAD}`}>
-      <Topline left="Hamol / The Studio" right="02" light />
+      <Topline left="Arcline / The Studio" right="02" light />
       <h2 className="mt-12 text-[clamp(40px,5vw,76px)] leading-[1.05] font-medium tracking-[-0.05em]">
         From possibility
         <br />
@@ -151,7 +151,7 @@ export function Studio() {
 
       {/* Team */}
       <div className="mx-auto mt-[100px] max-w-[1320px]">
-        <p className={`${EYEBROW} text-[#5b6969]`}>The people behind Hamol</p>
+        <p className={`${EYEBROW} text-[#5b6969]`}>The people behind Arcline</p>
         <h3
           id="team-heading"
           className="mt-6 max-w-[16ch] scroll-mt-32 text-[clamp(34px,3.6vw,56px)] leading-[1.08] font-medium tracking-[-0.045em]"
@@ -340,10 +340,10 @@ export function SiteFooter() {
       </ContactButton>
 
       <div className="mt-10 flex flex-wrap items-center gap-x-10 gap-y-5 text-sm text-[#999da4]">
-        <a href="#top" aria-label="Hamol Studio, home">
+        <a href="#top" aria-label="Arcline Studio, home">
           <Image
             src="/sites/hamol/media/hamol-logo.svg"
-            alt="Hamol Studio"
+            alt="Arcline Studio"
             width={90}
             height={60}
             className="h-8 w-auto"
@@ -352,7 +352,7 @@ export function SiteFooter() {
         <a href={`mailto:${CONTACT_EMAIL}`} className="transition hover:text-white">
           {CONTACT_EMAIL}
         </a>
-        <span>© 2026 Hamol Studio</span>
+        <span>© 2026 Arcline Studio</span>
         <a href="#top" className="ml-auto inline-flex items-center gap-2 transition hover:text-white">
           Back to top
           <ArrowUp size={15} />
@@ -360,14 +360,14 @@ export function SiteFooter() {
       </div>
 
       <div className="mt-8 flex flex-wrap items-center justify-between gap-6 border-t border-white/[0.07] pt-6 text-[13px] text-[#717980]">
-        <a href="https://hamol.studio/privacy/" className="transition hover:text-white">
+        <a href="https://arcline.studio/privacy/" className="transition hover:text-white">
           Privacy policy
         </a>
         <a
           href="https://lovable-partner-directory.lovable.app/partners/hamol-studio"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Lovable Expert 2026 — Hamol Studio partner profile (opens in a new tab)"
+          aria-label="Lovable Expert 2026 — Arcline Studio partner profile (opens in a new tab)"
         >
           <Image
             src="/sites/hamol/media/badges/lovable-expert-2026.svg"
