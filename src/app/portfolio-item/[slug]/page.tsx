@@ -22,7 +22,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const item = portfolioBySlug(slug);
-  return { title: item ? `${item.title} | Eskil` : "Portfolio | Eskil" };
+  return { title: item ? `${item.title} | Nordvik` : "Portfolio | Nordvik" };
 }
 
 export default async function PortfolioItemPage({
