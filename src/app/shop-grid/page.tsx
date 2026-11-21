@@ -6,9 +6,9 @@ import { Reveal } from "@/components/sites/eskil/Reveal";
 import { ShopGridClient } from "./ShopGridClient";
 
 export const metadata = {
-  title: "Shop Grid – Eskil",
+  title: "Shop Grid – Nordvik",
   description:
-    "Eskil Shop Grid — chairs & stools, lamps & pendants and haus decor, with a filterable product grid, shop by room and latest news.",
+    "Nordvik Shop Grid — chairs & stools, lamps & pendants and haus decor, with a filterable product grid, shop by room and latest news.",
 };
 
 const GRID_SLUGS = [
