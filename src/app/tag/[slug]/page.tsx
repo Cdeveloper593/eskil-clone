@@ -15,7 +15,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const archive = blogTagBySlug(slug);
   return {
-    title: archive ? `${archive.name} — Tag | Eskil` : "Tag | Eskil",
+    title: archive ? `${archive.name} — Tag | Nordvik` : "Tag | Nordvik",
   };
 }
 
