@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { infoPageBySlug } from "@/lib/eskil/pages";
 import { InfoContent, PageHero } from "@/components/sites/eskil/InfoPage";
 
-export const metadata = { title: "Terms & Conditions | Eskil" };
+export const metadata = { title: "Terms & Conditions | Nordvik" };
 
 export default function TermsConditionsPage() {
   const page = infoPageBySlug("terms-conditions");
