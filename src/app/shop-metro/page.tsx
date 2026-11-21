@@ -4,9 +4,9 @@ import { ProductCard } from "@/components/sites/eskil/ProductCard";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
 export const metadata = {
-  title: "Shop Metro – Eskil",
+  title: "Shop Metro – Nordvik",
   description:
-    "Eskil Shop Metro — make your household feel cozy with our furniture and decorations, in a metro tiled layout.",
+    "Nordvik Shop Metro — make your household feel cozy with our furniture and decorations, in a metro tiled layout.",
 };
 
 const METRO_SLUGS = [
@@ -98,15 +98,15 @@ export default function ShopMetroPage() {
           <Reveal>
             <p className="eskil-eyebrow">Follow us</p>
             <h2 className="eskil-display mt-3 text-[32px] leading-tight text-black md:text-[40px]">
-              #DECO_ESKIL
+              #DECO_NORDVIK
             </h2>
             <a
-              href="https://www.instagram.com/eskilshop/"
+              href="https://www.instagram.com/nordvikliving/"
               target="_blank"
               rel="noreferrer"
               className="eskil-link-underline mt-5 inline-block text-[13px] font-medium uppercase tracking-[0.2em] text-black"
             >
-              eskilshop
+              nordvikliving
             </a>
           </Reveal>
         </div>
