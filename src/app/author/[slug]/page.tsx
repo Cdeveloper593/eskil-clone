@@ -15,7 +15,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const archive = postAuthorBySlug(slug);
   return {
-    title: archive ? `${archive.name} — Author | Eskil` : "Author | Eskil",
+    title: archive ? `${archive.name} — Author | Nordvik` : "Author | Nordvik",
   };
 }
 
