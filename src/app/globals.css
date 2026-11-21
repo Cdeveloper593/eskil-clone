@@ -4,7 +4,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Hamol Studio clone — Manrope (self-hosted from source) */
+/* Arcline Studio clone — Manrope (self-hosted from source) */
 @font-face {
   font-family: "Manrope";
   font-style: normal;

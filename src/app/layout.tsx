@@ -23,9 +23,9 @@ const marcellus = Marcellus({
 });
 
 export const metadata: Metadata = {
-  title: "Furniture Store – Eskil",
+  title: "Furniture Store – Nordvik",
   description:
-    "Eskil — Furniture Store. Quality design furniture & custom-made décor. Featured collections by Antonio Citterio, Johanna Grawundler, Patricia Urquiola and more.",
+    "Nordvik — Furniture Store. Quality design furniture & custom-made décor. Featured collections by Antonio Citterio, Johanna Grawundler, Patricia Urquiola and more.",
 };
 
 export default function RootLayout({

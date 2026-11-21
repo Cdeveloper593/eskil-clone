@@ -8,9 +8,9 @@ import { HeroHotspots } from "@/components/sites/eskil/HeroHotspots";
 import { NewsletterForm } from "@/components/sites/eskil/NewsletterForm";
 
 export const metadata = {
-  title: "Furniture Store – Eskil",
+  title: "Furniture Store – Nordvik",
   description:
-    "Eskil Furniture Store — featured collections by Antonio Citterio, Johanna Grawundler, Patricia Urquiola, Borge Mogensen, Gino Sarfatti and Vincent Van Duysen.",
+    "Nordvik Furniture Store — featured collections by Antonio Citterio, Johanna Grawundler, Patricia Urquiola, Borge Mogensen, Gino Sarfatti and Vincent Van Duysen.",
 };
 
 const HOTSPOTS = [
