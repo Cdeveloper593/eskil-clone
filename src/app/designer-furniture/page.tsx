@@ -6,9 +6,9 @@ import { ProductCard } from "@/components/sites/eskil/ProductCard";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
 export const metadata = {
-  title: "Designer Furniture – Eskil",
+  title: "Designer Furniture – Nordvik",
   description:
-    "Eskil Designer Furniture — furniture & décor by Hans J. Wegner and Hugo Passos, high quality materials, latest news.",
+    "Nordvik Designer Furniture — furniture & décor by Hans J. Wegner and Hugo Passos, high quality materials, latest news.",
 };
 
 const DESIGNER_PRODUCTS = [
@@ -323,15 +323,15 @@ export default function DesignerFurniturePage() {
           <Reveal>
             <p className="eskil-eyebrow">Follow us</p>
             <h2 className="eskil-display mt-3 text-[32px] leading-tight text-black md:text-[40px]">
-              #QODE_ESKIL
+              #QODE_NORDVIK
             </h2>
             <a
-              href="https://www.instagram.com/eskilshop/"
+              href="https://www.instagram.com/nordvikliving/"
               target="_blank"
               rel="noreferrer"
               className="eskil-link-underline mt-5 inline-block text-[13px] font-medium uppercase tracking-[0.2em] text-black"
             >
-              eskilshop
+              nordvikliving
             </a>
           </Reveal>
         </div>
