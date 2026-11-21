@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { infoPageBySlug } from "@/lib/eskil/pages";
 import { InfoContent, PageHero } from "@/components/sites/eskil/InfoPage";
 
-export const metadata = { title: "Careers | Eskil" };
+export const metadata = { title: "Careers | Nordvik" };
 
 export default function CareersPage() {
   const page = infoPageBySlug("careers");
