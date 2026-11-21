@@ -17,9 +17,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const product = productBySlug(slug);
-  if (!product) return { title: "Product – Eskil" };
+  if (!product) return { title: "Product – Nordvik" };
   return {
-    title: `${product.name} – Eskil`,
+    title: `${product.name} – Nordvik`,
     description: product.shortDescription.replace(/<[^>]*>/g, " ").trim(),
   };
 }
