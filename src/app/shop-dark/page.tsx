@@ -4,9 +4,9 @@ import { Reveal } from "@/components/sites/eskil/Reveal";
 import { TextImageSlider } from "./TextImageSlider";
 
 export const metadata = {
-  title: "Shop Dark – Eskil",
+  title: "Shop Dark – Nordvik",
   description:
-    "Eskil Shop Dark — for every modern home, quality furniture and décor, on a dark theme.",
+    "Nordvik Shop Dark — for every modern home, quality furniture and décor, on a dark theme.",
 };
 
 const CATEGORIES = [
@@ -42,7 +42,7 @@ export default function ShopDarkPage() {
           <Reveal>
             <Image
               src="/sites/eskil/2022/03/h4-img-1.jpg"
-              alt="Eskil furniture — modern home interior"
+              alt="Nordvik furniture — modern home interior"
               width={1502}
               height={1300}
               priority
