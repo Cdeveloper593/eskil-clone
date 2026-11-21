@@ -3,7 +3,7 @@ import { infoPageBySlug } from "@/lib/eskil/pages";
 import { FaqAccordion, PageHero } from "@/components/sites/eskil/InfoPage";
 import { Reveal } from "@/components/sites/eskil/Reveal";
 
-export const metadata = { title: "FAQ Page | Eskil" };
+export const metadata = { title: "FAQ Page | Nordvik" };
 
 export default function FaqPage() {
   const page = infoPageBySlug("faq-page");
